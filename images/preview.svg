@@ -1,0 +1,57 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="720" fill="#21252b" rx="10"/>
+  <rect width="1000" height="36" fill="#16191d" rx="10"/>
+  <circle cx="16" cy="18" r="5.5" fill="#e06c75"/><circle cx="36" cy="18" r="5.5" fill="#e5c07b"/><circle cx="56" cy="18" r="5.5" fill="#98c379"/>
+  <text x="76" y="23" font-family="system-ui" font-size="12" fill="#abb2bf">UserService.ts — SETT Theme Pro</text>
+  <rect x="0" y="36" width="48" height="684" fill="#1e2227"/>
+  <g font-family="Consolas,monospace" font-size="11.5" fill="#4b5362">
+    <text x="38" y="62" text-anchor="end">1</text><text x="38" y="80" text-anchor="end">2</text><text x="38" y="98" text-anchor="end">3</text>
+    <text x="38" y="116" text-anchor="end">4</text><text x="38" y="134" text-anchor="end">5</text><text x="38" y="152" text-anchor="end">6</text>
+    <text x="38" y="170" text-anchor="end">7</text><text x="38" y="188" text-anchor="end">8</text><text x="38" y="206" text-anchor="end">9</text>
+    <text x="38" y="224" text-anchor="end">10</text><text x="38" y="242" text-anchor="end">11</text><text x="38" y="260" text-anchor="end">12</text>
+    <text x="38" y="278" text-anchor="end">13</text><text x="38" y="296" text-anchor="end">14</text><text x="38" y="314" text-anchor="end">15</text>
+    <text x="38" y="332" text-anchor="end">16</text><text x="38" y="350" text-anchor="end">17</text><text x="38" y="368" text-anchor="end">18</text>
+    <text x="38" y="386" text-anchor="end">19</text><text x="38" y="404" text-anchor="end">20</text><text x="38" y="422" text-anchor="end">21</text>
+    <text x="38" y="440" text-anchor="end">22</text><text x="38" y="458" text-anchor="end">23</text><text x="38" y="476" text-anchor="end">24</text>
+    <text x="38" y="494" text-anchor="end">25</text><text x="38" y="512" text-anchor="end">26</text><text x="38" y="530" text-anchor="end">27</text>
+    <text x="38" y="548" text-anchor="end">28</text><text x="38" y="566" text-anchor="end">29</text><text x="38" y="584" text-anchor="end">30</text>
+    <text x="38" y="602" text-anchor="end">31</text><text x="38" y="620" text-anchor="end">32</text><text x="38" y="638" text-anchor="end">33</text>
+    <text x="38" y="656" text-anchor="end">34</text><text x="38" y="674" text-anchor="end">35</text><text x="38" y="692" text-anchor="end">36</text>
+  </g>
+  <g font-family="JetBrains Mono,Fira Code,monospace" font-size="12.5">
+    <text x="58" y="62"><tspan fill="#e06c75">import</tspan><tspan fill="#abb2bf"> { </tspan><tspan fill="#d7dae0">User</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#d7dae0">ApiResponse</tspan><tspan fill="#abb2bf"> } </tspan><tspan fill="#e06c75">from</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5c07b">'./types'</tspan><tspan fill="#abb2bf">;</tspan></text>
+    <text x="58" y="98"><tspan fill="#7f848e">// Service for user management with all color demonstrations</tspan></text>
+    <text x="58" y="116"><tspan fill="#e5a84b">const</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">API_URL</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">=</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5c07b">"https://api.example.com"</tspan><tspan fill="#abb2bf">;</tspan></text>
+    <text x="58" y="134"><tspan fill="#e5a84b">let</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">retryCount</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">=</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d19a66">0</tspan><tspan fill="#abb2bf">;</tspan></text>
+    <text x="58" y="152"><tspan fill="#e5a84b">var</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">isDebugMode</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">=</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#98c379">false</tspan><tspan fill="#abb2bf">;</tspan></text>
+    <text x="58" y="188"><tspan fill="#e06c75">class</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5c07b">UserService</tspan><tspan fill="#abb2bf"> {</tspan></text>
+    <text x="78" y="224"><tspan fill="#e06c75">async</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#98c379">fetchUsers</tspan><tspan fill="#abb2bf">(): </tspan><tspan fill="#e5c07b">Promise</tspan><tspan fill="#e5a84b">&lt;</tspan><tspan fill="#e5c07b">User</tspan><tspan fill="#abb2bf">[]</tspan><tspan fill="#e5a84b">&gt;</tspan><tspan fill="#abb2bf"> {</tspan></text>
+    <text x="98" y="242"><tspan fill="#e5a84b">const</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">response</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">=</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e06c75">await</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#98c379">fetch</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#d7dae0">API_URL</tspan><tspan fill="#abb2bf">);</tspan></text>
+    <text x="98" y="278"><tspan fill="#e06c75">if</tspan><tspan fill="#abb2bf"> (</tspan><tspan fill="#d7dae0">response</tspan><tspan fill="#e06c75">.ok</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">&amp;&amp;</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">response</tspan><tspan fill="#e06c75">.status</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">===</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d19a66">200</tspan><tspan fill="#abb2bf">) {</tspan></text>
+    <text x="118" y="296"><tspan fill="#e5a84b">const</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">data</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">=</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e06c75">await</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">response</tspan><tspan fill="#e06c75">.json</tspan><tspan fill="#abb2bf">();</tspan></text>
+    <text x="118" y="314"><tspan fill="#e06c75">return</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">data</tspan><tspan fill="#e06c75">.users</tspan><tspan fill="#e5a84b">?.</tspan><tspan fill="#e06c75">filter</tspan><tspan fill="#abb2bf">((</tspan><tspan fill="#d7dae0">u</tspan><tspan fill="#abb2bf">) </tspan><tspan fill="#e5a84b">=&gt;</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">u</tspan><tspan fill="#e06c75">.active</tspan><tspan fill="#abb2bf">);</tspan></text>
+    <text x="98" y="332"><tspan fill="#abb2bf">} </tspan><tspan fill="#e06c75">else</tspan><tspan fill="#abb2bf"> {</tspan></text>
+    <text x="118" y="350"><tspan fill="#e06c75">throw</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e06c75">new</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5c07b">Error</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#e5c07b">`HTTP error! status: </tspan><tspan fill="#abb2bf">${</tspan><tspan fill="#d7dae0">response</tspan><tspan fill="#e06c75">.status</tspan><tspan fill="#abb2bf">}</tspan><tspan fill="#e5c07b">`</tspan><tspan fill="#abb2bf">);</tspan></text>
+    <text x="98" y="368"><tspan fill="#abb2bf">}</tspan></text>
+    <text x="78" y="386"><tspan fill="#abb2bf">}</tspan></text>
+    <text x="78" y="422"><tspan fill="#98c379">updateUser</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#d7dae0">user</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#e5c07b">User</tspan><tspan fill="#abb2bf">): </tspan><tspan fill="#e5c07b">ApiResponse</tspan><tspan fill="#abb2bf"> {</tspan></text>
+    <text x="98" y="440"><tspan fill="#e5a84b">const</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#d7dae0">payload</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#e5a84b">=</tspan><tspan fill="#abb2bf"> {</tspan></text>
+    <text x="118" y="458"><tspan fill="#56b6c2">id</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d7dae0">user</tspan><tspan fill="#e06c75">.id</tspan><tspan fill="#abb2bf">,</tspan></text>
+    <text x="118" y="476"><tspan fill="#56b6c2">name</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d7dae0">user</tspan><tspan fill="#e06c75">.name</tspan><tspan fill="#abb2bf">,</tspan></text>
+    <text x="118" y="494"><tspan fill="#56b6c2">email</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d7dae0">user</tspan><tspan fill="#e06c75">.email</tspan><tspan fill="#abb2bf">,</tspan></text>
+    <text x="118" y="512"><tspan fill="#56b6c2">active</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#98c379">true</tspan><tspan fill="#abb2bf">,</tspan></text>
+    <text x="118" y="530"><tspan fill="#56b6c2">timestamp</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d7dae0">Date</tspan><tspan fill="#e06c75">.now</tspan><tspan fill="#abb2bf">()</tspan></text>
+    <text x="98" y="548"><tspan fill="#abb2bf">};</tspan></text>
+    <text x="98" y="584"><tspan fill="#d7dae0">console</tspan><tspan fill="#e06c75">.log</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#e5c07b">`Updating user </tspan><tspan fill="#abb2bf">${</tspan><tspan fill="#d7dae0">user</tspan><tspan fill="#e06c75">.name</tspan><tspan fill="#abb2bf">}</tspan><tspan fill="#e5c07b"> (ID: </tspan><tspan fill="#abb2bf">${</tspan><tspan fill="#d7dae0">user</tspan><tspan fill="#e06c75">.id</tspan><tspan fill="#abb2bf">}</tspan><tspan fill="#e5c07b">)`</tspan><tspan fill="#abb2bf">);</tspan></text>
+    <text x="98" y="602"><tspan fill="#e06c75">return</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#c678dd">this</tspan><tspan fill="#e06c75">.sendRequest</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#e5c07b">'PUT'</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#d7dae0">payload</tspan><tspan fill="#abb2bf">);</tspan></text>
+    <text x="78" y="620"><tspan fill="#abb2bf">}</tspan></text>
+    <text x="78" y="656"><tspan fill="#e06c75">private</tspan><tspan fill="#abb2bf"> </tspan><tspan fill="#98c379">sendRequest</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#d7dae0">method</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#e5c07b">string</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#d7dae0">data</tspan><tspan fill="#e5a84b">?</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#e06c75">any</tspan><tspan fill="#abb2bf">) {</tspan></text>
+    <text x="98" y="674"><tspan fill="#7f848e">// Implementation here...</tspan></text>
+    <text x="78" y="692"><tspan fill="#abb2bf">}</tspan></text>
+  </g>
+  <text x="58" y="638"><tspan font-family="JetBrains Mono,monospace" font-size="12.5" fill="#abb2bf">}</tspan></text>
+  <rect x="271" y="426" width="2" height="14" fill="#528bff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  <rect x="0" y="684" width="1000" height="36" fill="#16191d"/>
+  <text x="15" y="707" font-family="system-ui" font-size="11" fill="#abb2bf">TypeScript</text>
+  <text x="920" y="707" font-family="system-ui" font-size="11" fill="#abb2bf">Ln 22, Col 30</text>
+</svg>

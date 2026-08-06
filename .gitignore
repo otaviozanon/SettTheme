@@ -1,0 +1,4 @@
+node_modules/
+bin/
+*.vsix
+.DS_Store

@@ -1,0 +1,101 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#21252b"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#abb2bf" text-anchor="middle">
+    ⚡ SETT Theme Color Palette
+  </text>
+  
+  <!-- Color boxes -->
+  <!-- Row 1 -->
+  <g transform="translate(50, 80)">
+    <!-- Golden Orange -->
+    <rect width="150" height="80" rx="8" fill="#e5a84b"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">GOLDEN</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#e5a84b</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">const, operators</text>
+  </g>
+  
+  <g transform="translate(225, 80)">
+    <!-- Pink -->
+    <rect width="150" height="80" rx="8" fill="#e06c75"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">PINK</text>
+    <text x="75" y="115" font="monospace" font-size="11" fill="#21252b" text-anchor="middle">#e06c75</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">keywords, properties</text>
+  </g>
+  
+  <g transform="translate(400, 80)">
+    <!-- Orange -->
+    <rect width="150" height="80" rx="8" fill="#d19a66"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">ORANGE</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#d19a66</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">props, state, numbers</text>
+  </g>
+  
+  <g transform="translate(575, 80)">
+    <!-- Purple -->
+    <rect width="150" height="80" rx="8" fill="#c678dd"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">PURPLE</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#c678dd</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">this, super</text>
+  </g>
+  
+  <!-- Row 2 -->
+  <g transform="translate(50, 185)">
+    <!-- Yellow -->
+    <rect width="150" height="80" rx="8" fill="#e5c07b"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">YELLOW</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#e5c07b</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">strings, classes</text>
+  </g>
+  
+  <g transform="translate(225, 185)">
+    <!-- Green -->
+    <rect width="150" height="80" rx="8" fill="#98c379"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">GREEN</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#98c379</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">functions, booleans</text>
+  </g>
+  
+  <g transform="translate(400, 185)">
+    <!-- Cyan -->
+    <rect width="150" height="80" rx="8" fill="#56b6c2"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">CYAN</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#56b6c2</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">object keys, types</text>
+  </g>
+  
+  <g transform="translate(575, 185)">
+    <!-- Blue -->
+    <rect width="150" height="80" rx="8" fill="#61afef"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">BLUE</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#61afef</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">UI highlights</text>
+  </g>
+  
+  <!-- Row 3 - Grayscale -->
+  <g transform="translate(137.5, 290)">
+    <!-- White Bright -->
+    <rect width="150" height="80" rx="8" fill="#d7dae0"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">WHITE</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#d7dae0</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">variables</text>
+  </g>
+  
+  <g transform="translate(312.5, 290)">
+    <!-- Foreground -->
+    <rect width="150" height="80" rx="8" fill="#abb2bf"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">FOREGROUND</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#abb2bf</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">default text</text>
+  </g>
+  
+  <g transform="translate(487.5, 290)">
+    <!-- Comment -->
+    <rect width="150" height="80" rx="8" fill="#7f848e"/>
+    <text x="75" y="100" font-family="monospace" font-size="12" fill="#21252b" text-anchor="middle" font-weight="bold">COMMENT</text>
+    <text x="75" y="115" font-family="monospace" font-size="11" fill="#21252b" text-anchor="middle">#7f848e</text>
+    <text x="75" y="130" font-family="Arial, sans-serif" font-size="10" fill="#21252b88" text-anchor="middle">comments</text>
+  </g>
+</svg>

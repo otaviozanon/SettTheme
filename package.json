@@ -1,0 +1,60 @@
+{
+  "name": "theme-sett",
+  "version": "1.0.0",
+  "displayName": "SETT Theme Pro",
+  "description": "A powerful dark theme with golden highlights",
+  "publisher": "otaviozanon",
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package -o ./bin/sett.vsix",
+    "lint": "vsce ls",
+    "pretest": "vsce ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otaviozanon/SettTheme"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "homepage": "https://github.com/otaviozanon/SettTheme#readme",
+  "bugs": {
+    "url": "https://github.com/otaviozanon/SettTheme/issues"
+  },
+  "keywords": [
+    "sett",
+    "theme",
+    "dark",
+    "golden",
+    "typescript",
+    "javascript",
+    "react",
+    "high-contrast"
+  ],
+  "galleryBanner": {
+    "color": "#17181A",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "SETT Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./theme/sett.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "files": [
+    "images/**/*.png",
+    "images/**/*.svg",
+    "theme/**/*.json",
+    "icon.png"
+  ]
+}
