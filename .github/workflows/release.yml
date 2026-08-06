@@ -21,7 +21,9 @@ jobs:
       - run: npm ci
 
       - name: Build VSIX
-        run: npm run package
+        run: |
+          mkdir -p bin
+          npm run package
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
