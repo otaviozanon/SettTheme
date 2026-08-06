@@ -1,4 +1,6 @@
 .vscode/**
+.git/**
+.github/**
 .gitignore
 .vscodeignore
 node_modules/**
