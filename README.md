@@ -4,9 +4,9 @@
 
 **A powerful dark theme for VS Code with golden highlights**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-e5a84b.svg?style=flat-square)](https://github.com/otaviozanon/SettTheme/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-e5a84b.svg?style=flat-square)](https://github.com/otaviozanon/settheme)
 [![License](https://img.shields.io/badge/license-MIT-98c379.svg?style=flat-square)](LICENSE.md)
-[![VS Code](https://img.shields.io/badge/VS%20Code-1.85%2B-61afef.svg?style=flat-square)](https://code.visualstudio.com/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.13%2B-61afef.svg?style=flat-square)](https://code.visualstudio.com/)
 
 **Golden highlights. Dark elegance. Built for developers.**
 
@@ -48,7 +48,7 @@
 
 ## 🚀 Installation
 
-1. Download `sett.vsix` from [releases](https://github.com/otaviozanon/SettTheme/releases)
+1. Download `sett.vsix` from [releases](https://github.com/otaviozanon/sett-theme/releases)
 2. Open VS Code
 3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
 4. Type "Install from VSIX"

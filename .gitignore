@@ -1,4 +1,5 @@
 node_modules/
+theme/
 bin/
 *.vsix
 .DS_Store

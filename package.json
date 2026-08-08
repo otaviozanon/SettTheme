@@ -3,28 +3,22 @@
   "version": "1.0.0",
   "displayName": "SETT Theme Pro",
   "description": "A powerful dark theme with golden highlights",
-  "publisher": "otaviozanon",
+  "publisher": "Otavio Zanon",
   "license": "MIT",
   "scripts": {
-    "package": "vsce package -o ./bin/sett.vsix",
-    "lint": "vsce ls",
-    "pretest": "vsce ls"
+    "package": "vsce package -o ./bin/sett.vsix"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/otaviozanon/SettTheme"
+    "url": "https://github.com/otaviozanon/settheme"
   },
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.13.0"
   },
   "categories": [
     "Themes"
   ],
   "icon": "icon.png",
-  "homepage": "https://github.com/otaviozanon/SettTheme#readme",
-  "bugs": {
-    "url": "https://github.com/otaviozanon/SettTheme/issues"
-  },
   "keywords": [
     "sett",
     "theme",
